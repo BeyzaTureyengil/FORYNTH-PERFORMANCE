@@ -1,8 +1,6 @@
 # FORYNTH-PERFORMANCE
 WordPress tabanlı spor merkezi yönetim ve rezervasyon sistemi
-# FORYNTH PERFORMANCE
 
-WordPress tabanlı spor merkezi tanıtım, üyelik ve rezervasyon yönetim sistemi.
 
 ## Proje Özellikleri
 
