@@ -1,0 +1,196 @@
+
+/* =====================================
+   FORYNTH PERFORMANCE
+   Modern Booking UI
+===================================== */
+
+:root {
+    --fp-blue: #006aff;
+    --fp-navy: #101827;
+    --fp-border: #dce4ee;
+    --fp-muted: #64748b;
+}
+
+/* Ana rezervasyon alanı */
+body.page .ea-standard {
+    width: 100% !important;
+    max-width: 780px !important;
+    margin: 28px auto !important;
+    padding: 28px !important;
+    box-sizing: border-box;
+    background: #fff !important;
+    border: 1px solid #e7edf5;
+    border-radius: 22px !important;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, .12);
+}
+
+/* İç alanlar taşmasın */
+.ea-standard,
+.ea-standard *,
+.ea-standard *::before,
+.ea-standard *::after {
+    box-sizing: border-box;
+}
+
+.ea-standard img,
+.ea-standard textarea,
+.ea-standard select {
+    max-width: 100% !important;
+}
+
+/* Form etiketleri */
+.ea-standard label {
+    color: var(--fp-navy) !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+/* Giriş alanları */
+.ea-standard input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+.ea-standard select,
+.ea-standard textarea {
+    max-width: 100% !important;
+    min-height: 44px;
+    border: 1px solid var(--fp-border) !important;
+    border-radius: 10px !important;
+    background: #f8fafc !important;
+    color: var(--fp-navy) !important;
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+/* Klavye ile erişilebilir odak */
+.ea-standard :is(input, select, textarea, button, a):focus-visible {
+    outline: 3px solid var(--fp-blue) !important;
+    outline-offset: 2px;
+}
+
+/* Takvim kapsayıcısı */
+.ea-standard .ui-datepicker {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+    border: 1px solid var(--fp-border) !important;
+    border-radius: 14px !important;
+    background: #fff !important;
+    overflow: hidden;
+}
+
+/* Takvim başlığı */
+.ea-standard .ui-datepicker-header {
+    background: #eff5ff !important;
+    color: var(--fp-navy) !important;
+    border: 0 !important;
+    border-radius: 9px !important;
+    padding: 10px 4px !important;
+}
+
+.ea-standard .ui-datepicker-title {
+    color: var(--fp-navy) !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+/* Takvim günleri */
+.ea-standard .ui-datepicker-calendar {
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+.ea-standard .ui-datepicker-calendar th {
+    color: var(--fp-muted) !important;
+    font-size: 12px !important;
+    padding: 8px 2px !important;
+}
+
+.ea-standard .ui-datepicker-calendar td {
+    padding: 2px !important;
+}
+
+.ea-standard .ui-datepicker-calendar td a,
+.ea-standard .ui-datepicker-calendar td span {
+    display: block;
+    text-align: center;
+    border-radius: 7px !important;
+    padding: 7px 2px !important;
+}
+
+/* Seçilebilir gün */
+.ea-standard .ui-datepicker-calendar td a {
+    color: #1e293b !important;
+    background: #f1f5f9 !important;
+    border: 1px solid transparent !important;
+}
+
+.ea-standard .ui-datepicker-calendar td a:hover {
+    background: #dbeafe !important;
+    border-color: #93c5fd !important;
+}
+
+/* Seçili gün */
+.ea-standard .ui-datepicker-calendar .ui-datepicker-current-day a,
+.ea-standard .ui-datepicker-calendar a.ui-state-active {
+    background: var(--fp-blue) !important;
+    color: #fff !important;
+    border-color: var(--fp-blue) !important;
+}
+
+/* Dolu veya pasif günlerin
+   tıklanabilirliğini değiştirme */
+.ea-standard .ui-datepicker-unselectable span {
+    background: #f8fafc !important;
+    color: #94a3b8 !important;
+    opacity: .65;
+}
+
+/* Buton görünümü */
+.ea-standard :is(button, input[type="submit"], .btn-primary) {
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    transition: background-color .2s ease,
+                box-shadow .2s ease;
+}
+
+.ea-standard :is(button, input[type="submit"], .btn-primary):not(:disabled):hover {
+    box-shadow: 0 6px 18px rgba(0, 106, 255, .18);
+}
+
+/* Uzun rezervasyon açıklamaları */
+.ea-standard td,
+.ea-standard p {
+    overflow-wrap: anywhere;
+}
+
+/* Küçük ekranlar */
+@media (max-width: 768px) {
+    body.page .ea-standard {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 16px auto !important;
+        padding: 14px !important;
+        border-radius: 14px !important;
+    }
+
+    .ea-standard .ui-datepicker {
+        padding: 5px !important;
+    }
+
+    .ea-standard .ui-datepicker-calendar td {
+        padding: 1px !important;
+    }
+
+    .ea-standard .ui-datepicker-calendar td a,
+    .ea-standard .ui-datepicker-calendar td span {
+        padding: 6px 1px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* Hareket hassasiyeti */
+@media (prefers-reduced-motion: reduce) {
+    .ea-standard * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
