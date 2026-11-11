@@ -172,3 +172,63 @@ Bu GitHub deposu, projenin özel geliştirme kodlarını ve dokümantasyonunu i�
 Bu proje, WordPress altyapısının özel PHP, CSS ve JavaScript geliştirmeleriyle genişletilebileceğini göstermek amacıyla hazırlanmıştır.
 
 FORYNTH PERFORMANCE, spor merkezi tanıtımını kullanıcı yönetimi ve rezervasyon işlevleriyle birleştiren uygulamalı bir web geliştirme projesidir.
+
+---
+
+## 📸 Proje Ekran Görüntüleri
+
+### 🏠 Ana Sayfa
+
+FORYNTH PERFORMANCE web sitesinin ana sayfası.
+Modern arayüzü ile spor merkezi, hizmetler ve antrenman
+olanakları hakkında bilgi sunmaktadır.
+
+![FORYNTH PERFORMANCE Ana Sayfa](screenshots/AnaSayfa.png)
+
+---
+
+### 📅 Online Rezervasyon Sistemi
+
+Kullanıcılar hizmet ve antrenör seçerek uygun tarih
+ve saatleri görüntüleyebilir, online rezervasyon
+talebi oluşturabilir.
+
+#### Rezervasyon Ekranı
+
+![Online Rezervasyon Ekranı](screenshots/rezervasyon_sistemi1.png)
+
+#### Tarih ve Saat Seçimi
+
+![Rezervasyon Tarih ve Saat Seçimi](screenshots/rezervasyon_sistemi2.png)
+
+#### Rezervasyon Onay Ekranı
+
+![Rezervasyon Onay Ekranı](screenshots/rezervasyon_sistemi3.png)
+
+---
+
+### 🗓️ Haftalık Ders Programı
+
+Haftalık ders programında kullanıcılar antrenmanların
+günlerini, saatlerini, antrenörlerini ve salonlarını
+inceleyebilir.
+
+Gün ve antrenör filtreleriyle istedikleri dersleri
+kolayca görüntüleyebilir.
+
+![Haftalık Ders Programı](screenshots/haftalik_ders_Programi.png)
+
+---
+
+### ♿ Erişilebilirlik Menüsü
+
+Web sitesinde farklı kullanıcı ihtiyaçlarını
+destekleyen erişilebilirlik araçları bulunmaktadır.
+
+Kullanıcılar yazı boyutu, kontrast ve diğer
+görünüm ayarlarını ihtiyaçlarına göre düzenleyebilir.
+
+![Erişilebilirlik Menüsü](screenshots/erisilebilirlik_Menusu.png)
+
+---
+
